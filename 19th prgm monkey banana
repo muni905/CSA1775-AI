@@ -1,0 +1,20 @@
+colour(cherry, red).
+colour(banana, yellow).
+colour(apple, red).
+colour(apple, green).
+colour(orange, orange).
+colour(X, unknown).
+
+INPUT/OUTPUT
+?- color(X,Y).
+Correct to: "colour(X,Y)"? yes
+X = cherry,
+Y = red ;
+X = banana,
+Y = yellow ;
+X = apple,
+Y = red ;
+X = apple,
+Y = green ;
+X = Y, Y = orange ;
+Y = unknown.
